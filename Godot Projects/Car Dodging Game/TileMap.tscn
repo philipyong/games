@@ -1,0 +1,65 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Sprite/roguelikeCity_transparent.png" type="Texture" id=1]
+
+[sub_resource type="TileSet" id=1]
+0/name = "roguelikeCity_transparent.png 0"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 135, 67 )
+0/tile_mode = 1
+0/autotile/bitmask_mode = 1
+0/autotile/bitmask_flags = [ Vector2( 0, 0 ), 432, Vector2( 0, 1 ), 54, Vector2( 0, 2 ), 144, Vector2( 0, 3 ), 18, Vector2( 1, 0 ), 216, Vector2( 1, 1 ), 27, Vector2( 1, 2 ), 48, Vector2( 1, 3 ), 16, Vector2( 2, 0 ), 504, Vector2( 2, 1 ), 63, Vector2( 2, 2 ), 56, Vector2( 2, 3 ), 186, Vector2( 3, 0 ), 438, Vector2( 3, 1 ), 219, Vector2( 3, 2 ), 24, Vector2( 3, 3 ), 146, Vector2( 4, 0 ), 255, Vector2( 4, 1 ), 507, Vector2( 4, 2 ), 176, Vector2( 4, 3 ), 50, Vector2( 5, 0 ), 447, Vector2( 5, 1 ), 510, Vector2( 5, 2 ), 152, Vector2( 5, 3 ), 26, Vector2( 6, 0 ), 511, Vector2( 6, 2 ), 178, Vector2( 6, 3 ), 154, Vector2( 7, 2 ), 58, Vector2( 7, 3 ), 184 ]
+0/autotile/icon_coordinate = Vector2( 1, 3 )
+0/autotile/tile_size = Vector2( 16, 16 )
+0/autotile/spacing = 1
+0/autotile/occluder_map = [  ]
+0/autotile/navpoly_map = [  ]
+0/autotile/priority_map = [  ]
+0/autotile/z_index_map = [  ]
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shapes = [  ]
+0/z_index = 0
+1/name = "roguelikeCity_transparent.png 1"
+1/texture = ExtResource( 1 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 153, 323, 101, 101 )
+1/tile_mode = 2
+1/autotile/icon_coordinate = Vector2( 0, 0 )
+1/autotile/tile_size = Vector2( 16, 16 )
+1/autotile/spacing = 1
+1/autotile/occluder_map = [  ]
+1/autotile/navpoly_map = [  ]
+1/autotile/z_index_map = [  ]
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shapes = [  ]
+1/z_index = 0
+2/name = "roguelikeCity_transparent.png 2"
+2/texture = ExtResource( 1 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 255, 357, 84, 67 )
+2/tile_mode = 2
+2/autotile/icon_coordinate = Vector2( 0, 0 )
+2/autotile/tile_size = Vector2( 16, 16 )
+2/autotile/spacing = 1
+2/autotile/occluder_map = [  ]
+2/autotile/navpoly_map = [  ]
+2/autotile/z_index_map = [  ]
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shapes = [  ]
+2/z_index = 0
+
+[node name="TileMap" type="TileMap"]
+tile_set = SubResource( 1 )
+cell_size = Vector2( 16, 16 )
+format = 1
+tile_data = PoolIntArray( 0, 0, 0, 1, 0, 2, 2, 0, 2, 3, 0, 2, 4, 0, 2, 5, 0, 2, 6, 0, 2, 7, 0, 2, 8, 0, 2, 9, 0, 2, 10, 0, 2, 11, 0, 2, 12, 0, 2, 13, 0, 2, 14, 0, 1, 65536, 0, 65536, 65537, 0, 65538, 65538, 0, 65538, 65539, 0, 65538, 65540, 0, 65538, 65541, 0, 65538, 65542, 0, 65538, 65543, 0, 65538, 65544, 0, 65538, 65545, 0, 65538, 65546, 0, 65538, 65547, 0, 65538, 65548, 0, 65538, 65549, 0, 65538, 65550, 0, 65537, 131072, 2, 65539, 131073, 2, 65539, 131074, 2, 65539, 131075, 2, 65539, 131076, 2, 65539, 131077, 2, 65539, 131078, 2, 65539, 131079, 2, 65539, 131080, 2, 65539, 131081, 2, 65539, 131082, 2, 65539, 131083, 2, 65539, 131084, 2, 65539, 131085, 2, 65539, 131086, 2, 65539, 196608, 1, 2, 196609, 1, 2, 196610, 1, 2, 196611, 1, 2, 196612, 1, 2, 196613, 1, 2, 196614, 1, 2, 196615, 1, 2, 196616, 1, 2, 196617, 1, 2, 196618, 1, 2, 196619, 1, 2, 196620, 1, 2, 196621, 1, 2, 196622, 1, 2, 262144, 1, 2, 262145, 1, 2, 262146, 1, 2, 262147, 1, 2, 262148, 1, 2, 262149, 1, 2, 262150, 1, 2, 262151, 1, 2, 262152, 1, 2, 262153, 1, 2, 262154, 1, 2, 262155, 1, 2, 262156, 1, 2, 262157, 1, 2, 262158, 1, 2, 327680, 1, 2, 327681, 1, 2, 327682, 1, 2, 327683, 1, 2, 327684, 1, 2, 327685, 1, 2, 327686, 1, 2, 327687, 1, 2, 327688, 1, 2, 327689, 1, 2, 327690, 1, 2, 327691, 1, 2, 327692, 1, 2, 327693, 1, 2, 327694, 1, 2, 393216, 1, 2, 393217, 1, 2, 393218, 1, 2, 393219, 1, 2, 393220, 1, 2, 393221, 1, 2, 393222, 1, 2, 393223, 1, 2, 393224, 1, 2, 393225, 1, 2, 393226, 1, 2, 393227, 1, 2, 393228, 1, 2, 393229, 1, 2, 393230, 1, 2, 458752, 2, 65538, 458753, 2, 65538, 458754, 2, 65538, 458755, 2, 65538, 458756, 2, 65538, 458757, 2, 65538, 458758, 2, 65538, 458759, 2, 65538, 458760, 2, 65538, 458761, 2, 65538, 458762, 2, 65538, 458763, 2, 65538, 458764, 2, 65538, 458765, 2, 65538, 458766, 2, 65538, 524288, 0, 0, 524289, 0, 2, 524290, 0, 2, 524291, 0, 2, 524292, 0, 2, 524293, 0, 2, 524294, 0, 2, 524295, 0, 2, 524296, 0, 2, 524297, 0, 2, 524298, 0, 2, 524299, 0, 2, 524300, 0, 2, 524301, 0, 2, 524302, 0, 1, 589824, 0, 65536, 589825, 0, 65538, 589826, 0, 65538, 589827, 0, 65538, 589828, 0, 65538, 589829, 0, 65538, 589830, 0, 65538, 589831, 0, 65538, 589832, 0, 65538, 589833, 0, 65538, 589834, 0, 65538, 589835, 0, 65538, 589836, 0, 65538, 589837, 0, 65538, 589838, 0, 65537 )
+__meta__ = {
+"_edit_lock_": true
+}
