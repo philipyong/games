@@ -1,0 +1,125 @@
+animations {
+  id: "idle"
+  images {
+    image: "/assets/astronaut/idle_01.png"
+  }
+  images {
+    image: "/assets/astronaut/idle_02.png"
+  }
+  images {
+    image: "/assets/astronaut/idle_03.png"
+  }
+  images {
+    image: "/assets/astronaut/idle_04.png"
+  }
+  images {
+    image: "/assets/astronaut/idle_05.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "left"
+  images {
+    image: "/assets/astronaut/left_01.png"
+  }
+  images {
+    image: "/assets/astronaut/left_02.png"
+  }
+  images {
+    image: "/assets/astronaut/left_03.png"
+  }
+  images {
+    image: "/assets/astronaut/left_04.png"
+  }
+  images {
+    image: "/assets/astronaut/left_05.png"
+  }
+  images {
+    image: "/assets/astronaut/left_06.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 15
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "right"
+  images {
+    image: "/assets/astronaut/right_01.png"
+  }
+  images {
+    image: "/assets/astronaut/right_02.png"
+  }
+  images {
+    image: "/assets/astronaut/right_03.png"
+  }
+  images {
+    image: "/assets/astronaut/right_04.png"
+  }
+  images {
+    image: "/assets/astronaut/right_05.png"
+  }
+  images {
+    image: "/assets/astronaut/right_06.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 15
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "front"
+  images {
+    image: "/assets/astronaut/front_01.png"
+  }
+  images {
+    image: "/assets/astronaut/front_02.png"
+  }
+  images {
+    image: "/assets/astronaut/front_03.png"
+  }
+  images {
+    image: "/assets/astronaut/front_04.png"
+  }
+  images {
+    image: "/assets/astronaut/front_05.png"
+  }
+  images {
+    image: "/assets/astronaut/front_06.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 15
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "back"
+  images {
+    image: "/assets/astronaut/back_01.png"
+  }
+  images {
+    image: "/assets/astronaut/back_02.png"
+  }
+  images {
+    image: "/assets/astronaut/back_03.png"
+  }
+  images {
+    image: "/assets/astronaut/back_04.png"
+  }
+  images {
+    image: "/assets/astronaut/back_05.png"
+  }
+  images {
+    image: "/assets/astronaut/back_06.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 15
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0
