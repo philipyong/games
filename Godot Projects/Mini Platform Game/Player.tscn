@@ -5,14 +5,14 @@
 [ext_resource path="res://PNG/Sprites/hero/hero-idle/hero-idle-2.png" type="Texture" id=3]
 [ext_resource path="res://PNG/Sprites/hero/hero-idle/hero-idle-3.png" type="Texture" id=4]
 [ext_resource path="res://PNG/Sprites/hero/hero-idle/hero-idle-4.png" type="Texture" id=5]
-[ext_resource path="res://PNG/Sprites/hero/hero-jump/hero-jump-3.png" type="Texture" id=6]
-[ext_resource path="res://PNG/Sprites/hero/hero-run/hero-run-1.png" type="Texture" id=7]
-[ext_resource path="res://PNG/Sprites/hero/hero-run/hero-run-2.png" type="Texture" id=8]
-[ext_resource path="res://PNG/Sprites/hero/hero-run/hero-run-3.png" type="Texture" id=9]
-[ext_resource path="res://PNG/Sprites/hero/hero-run/hero-run-4.png" type="Texture" id=10]
-[ext_resource path="res://PNG/Sprites/hero/hero-run/hero-run-5.png" type="Texture" id=11]
-[ext_resource path="res://PNG/Sprites/hero/hero-run/hero-run-6.png" type="Texture" id=12]
-[ext_resource path="res://PNG/Sprites/hero/hero-jump/hero-jump-1.png" type="Texture" id=13]
+[ext_resource path="res://PNG/Sprites/hero/hero-jump/hero-jump-1.png" type="Texture" id=6]
+[ext_resource path="res://PNG/Sprites/hero/hero-jump/hero-jump-3.png" type="Texture" id=7]
+[ext_resource path="res://PNG/Sprites/hero/hero-run/hero-run-1.png" type="Texture" id=8]
+[ext_resource path="res://PNG/Sprites/hero/hero-run/hero-run-2.png" type="Texture" id=9]
+[ext_resource path="res://PNG/Sprites/hero/hero-run/hero-run-3.png" type="Texture" id=10]
+[ext_resource path="res://PNG/Sprites/hero/hero-run/hero-run-4.png" type="Texture" id=11]
+[ext_resource path="res://PNG/Sprites/hero/hero-run/hero-run-5.png" type="Texture" id=12]
+[ext_resource path="res://PNG/Sprites/hero/hero-run/hero-run-6.png" type="Texture" id=13]
 [ext_resource path="res://Sky.png" type="Texture" id=14]
 
 [sub_resource type="SpriteFrames" id=1]
@@ -24,18 +24,18 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 6 ) ],
 "loop": true,
+"name": "Jump",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 7 ) ],
+"loop": true,
 "name": "Fall",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ) ],
+"frames": [ ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
 "loop": true,
 "name": "Run",
 "speed": 10.0
-}, {
-"frames": [ ExtResource( 13 ) ],
-"loop": true,
-"name": "Jump",
-"speed": 5.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=2]
