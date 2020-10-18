@@ -1,7 +1,6 @@
 extends KinematicBody2D
 
 #Script: Player.gd
-
 var speed = 2
 var top_limit = 42
 var bot_limit = 116

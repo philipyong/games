@@ -19,6 +19,10 @@ config/name="Car Dodging Game"
 run/main_scene="res://StartMenu.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+global="*res://global.gd"
+
 [display]
 
 window/size/width=240

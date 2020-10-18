@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://StartMenu.gd" type="Script" id=1]
 [ext_resource path="res://TileMap.tscn" type="PackedScene" id=2]
@@ -6,6 +6,9 @@
 [ext_resource path="res://FontBut.tres" type="DynamicFont" id=4]
 [ext_resource path="res://Cars/kart.png" type="Texture" id=5]
 [ext_resource path="res://Scripts/HighScore.gd" type="Script" id=6]
+[ext_resource path="res://Cars/sports_race.png" type="Texture" id=7]
+[ext_resource path="res://Cars/suv_closed.png" type="Texture" id=8]
+[ext_resource path="res://Cars/firetruck.png" type="Texture" id=9]
 
 [node name="StartMenu" type="Control"]
 margin_right = 40.0
@@ -35,12 +38,53 @@ text = "Start It Up"
 icon = ExtResource( 5 )
 
 [node name="HighScore" type="Label" parent="."]
-margin_left = 94.412
-margin_top = 131.946
-margin_right = 154.412
-margin_bottom = 154.946
+margin_left = 93.536
+margin_top = 6.23799
+margin_right = 153.536
+margin_bottom = 29.238
+rect_pivot_offset = Vector2( 30, 13.762 )
 custom_fonts/font = ExtResource( 4 )
-text = "0"
+text = "79"
 align = 1
 script = ExtResource( 6 )
+
+[node name="HighScore2" type="Label" parent="."]
+margin_left = 3.0
+margin_top = 65.0
+margin_right = 65.0
+margin_bottom = 166.0
+rect_scale = Vector2( 0.5, 0.5 )
+rect_pivot_offset = Vector2( 30, 13.762 )
+custom_fonts/font = ExtResource( 4 )
+text = "TOP 3
+PHI 79
+UWU 58
+TVT 39"
+align = 1
+script = ExtResource( 6 )
+
+[node name="Button2" type="Button" parent="."]
+margin_left = 53.1627
+margin_top = 132.424
+margin_right = 91.1627
+margin_bottom = 152.424
+rect_pivot_offset = Vector2( 38, 6.16022 )
+icon = ExtResource( 7 )
+
+[node name="Button3" type="Button" parent="."]
+margin_left = 102.253
+margin_top = 132.0
+margin_right = 140.253
+margin_bottom = 152.0
+icon = ExtResource( 8 )
+
+[node name="Button4" type="Button" parent="."]
+margin_left = 150.708
+margin_top = 132.0
+margin_right = 206.708
+margin_bottom = 159.0
+icon = ExtResource( 9 )
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="Button4" to="." method="_on_Button4_pressed"]
